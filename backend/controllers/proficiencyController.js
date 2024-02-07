@@ -9,11 +9,13 @@ const getProficiencyPage = (req, res) => {
       skills: [
         { name: 'React', icon: 'faReact' },
         { name: 'Node.js', icon: 'faNode' },
+        { name: 'Express', icon: 'faCode' },
         { name: 'MongoDB', icon: 'faDatabase' },
         { name: 'HTML', icon: 'faHtml5' },
         { name: 'CSS', icon: 'faCss3' },
         { name: 'JavaScript', icon: 'faJs' },
-        { name: 'Python', icon: 'faPython' }
+        { name: 'Python', icon: 'faPython' },
+        { name: 'Photoshop', icon: 'faImage' },
       ]
     }
   });
