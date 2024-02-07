@@ -12,15 +12,15 @@ const Profile = () => {
       <article
         className="common-inner animated clearfix bounceInDown"
         id="profile"
-        // style={prstyle}
+        style={prstyle}
       >
-        <div className="profile-cont">
-          <div className="profile-top">
+              <div className="profile-cont">
+          <div className="profile-top"><br />
             <h2>
               Hello, I am <span>Haamid</span>
             </h2>
             <h3>Back-end and Front-end Developer</h3>
-          </div>
+          </div><br />
           <div className="row profile-middle-content clearfix">
             <div className="col-md-6">
               <h3>About me</h3>
@@ -47,7 +47,7 @@ const Profile = () => {
               <div className="prof-personal-details">
                 <br />
                 <h4>Personal Details</h4>
-                <div style={{ background: "#b86c24" }}>
+                <div style={{ background: "#373737" }}>
                   <p className="light">
                     <b>Name :</b> Haamid
                   </p>
@@ -68,10 +68,10 @@ const Profile = () => {
             </div>
           </div>
           <br />
-          <a
-            href="https://www.leetcv.com/r/reshma_h_1327"
-            target="_blank"
-            className="download-resume"
+          <a 
+          href="https://www.leetcv.com/r/reshma_h_1327"
+          target="_blank"
+          className="download-resume"
           >
             <span className="solid">
               Download <b>My CV</b>
@@ -79,7 +79,7 @@ const Profile = () => {
           </a>
         </div>
       </article>
-    </>
+</>
   );
 };
 

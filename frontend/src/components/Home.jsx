@@ -7,10 +7,10 @@ const Home = () => {
       id="home"
       style={{ display: "block", paddingBottom: "40px" }}
     >
-      <div className="row">
+      <div className="row1">
         <div className="col-md-6 home-details">
           <h1>
-            <span>Hello, I am</span>
+            <span>Hello, I AM</span>
             <br />
             <div className="title-my-name">Haamid</div>
           </h1>
