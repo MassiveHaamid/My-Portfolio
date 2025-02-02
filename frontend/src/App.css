@@ -276,6 +276,8 @@ body.home {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px; /* Adjust the gap between items */
+  list-style-type: none; /* Remove the default bullets */
+  padding: 0; /* Remove any default padding */
 }
 
 .proficiency-details-list li {
@@ -289,7 +291,6 @@ body.home {
     width: 100%; /* Stack items vertically on smaller screens */
   }
 }
-
 
 .common-inner {
   padding: 75px 0 40px;
