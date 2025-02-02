@@ -25,7 +25,8 @@ const Profile = () => {
                 className="profile-image"
               />
             </div>
-            <br /><br />
+            <br />
+            <br />
             <h2>
               Hello, I am <span>Haamid</span>
             </h2>
@@ -60,7 +61,7 @@ const Profile = () => {
                 <h4>Personal Details</h4>
                 <div style={{ background: "#373737" }}>
                   <p className="light">
-                    <b>Name :</b> Haamid
+                    <b>Name :</b> Mohammed Haamid
                   </p>
                   <p className="dark">
                     <b>Birthday :</b> March, 1992
@@ -69,10 +70,10 @@ const Profile = () => {
                     <b>City :</b> Coimbatore, TN
                   </p>
                   <p className="dark">
-                    <b>Email :</b> reshma9298h@gmail.com
+                    <b>Email :</b> xxx-xxx-xxx@gmail.com
                   </p>
                   <p className="light">
-                    <b>Phone :</b> +34 630 24 52 53
+                    <b>Phone :</b> +91 xxx-xxx-xxx
                   </p>
                 </div>
               </div>
@@ -80,7 +81,7 @@ const Profile = () => {
           </div>
           <br />
           <a
-            href="https://www.leetcv.com/r/reshma_h_1327"
+            href="https://www.leetcv.com/mock-resume"
             target="_blank"
             className="download-resume"
           >

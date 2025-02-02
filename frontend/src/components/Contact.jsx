@@ -28,11 +28,11 @@ const Contact = () => {
           <ul className="contact-details-list">
             <li>
               <FontAwesomeIcon icon={faEnvelope} /> 
-              <a className="green" href="mailto:reshma9298h@gmail.com">reshma9298h@gmail.com</a>
+              <a className="green" href="mailto:reshma9298h@gmail.com">xxx-xxx-xxx@gmail.com</a>
             </li>
             <li>
               <FontAwesomeIcon icon={faPhone} /> 
-              <a className="green" href="tel:+34630245253">+34 630 24 52 53</a>
+              <a className="green" href="tel:+34630245253">+91-xxx-xxx-xxx</a>
             </li>
           </ul>
         </div>
