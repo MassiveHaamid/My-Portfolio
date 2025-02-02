@@ -271,6 +271,25 @@ body.home {
   text-align: center;
 }
 
+.proficiency-details-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Adjust the gap between items */
+}
+
+.proficiency-details-list li {
+  width: 48%; /* Adjust width to fit two items per row */
+  text-align: center; /* Center text below the icon */
+  margin-bottom: 20px; /* Adjust margin between rows */
+}
+
+@media (max-width: 768px) {
+  .proficiency-details-list li {
+    width: 100%; /* Stack items vertically on smaller screens */
+  }
+}
+
 
 .common-inner {
   padding: 75px 0 40px;

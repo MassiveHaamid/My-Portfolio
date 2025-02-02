@@ -28,7 +28,7 @@ const Proficiency = () => {
           </div>
           <br />
           <br />
-          <ul className="contact-details-list">
+          <ul className="proficiency-details-list">
             <li>
               <FontAwesomeIcon icon={faReact} size="4x" color="blue" /> React
             </li>
