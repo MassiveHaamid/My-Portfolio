@@ -4,45 +4,41 @@ const Projects = () => {
   const projects = [
     {
       title: "Project 1",
-      sourceCode: "https://github.com/project1",
-      demo: "https://demo.project1",
+      demo: "https://zen-csd-fe.vercel.app/",
     },
     {
       title: "Project 2",
-      sourceCode: "https://github.com/project2",
-      demo: "https://demo.project2",
+      demo: "https://shopcrd.onrender.com/#",
     },
     {
       title: "Project 3",
-      sourceCode: "https://github.com/project3",
-      demo: "https://demo.project3",
+      demo: "https://massivehaamid.github.io/day12-exec/",
     },
   ];
 
   return (
     <>
-    <article
-    className="common-inner animated clearfix bounceInDown"
-    id="projects"
-    style={{ display: "block", position: "relative", visibility: "visible" }}
-    >
-    <div class="profile-cont">
-    <div class="profile-top">
-    <h2>My <span>Projects</span></h2>
-    </div><br />
-    <div>
-    {projects.map((project, index) => (
-    <div key={index}>
-    <h3>{project.title}</h3>
-    <p>
-    <a className="green" href={project.sourceCode}>Source Code</a> |{" "}
-    <a className="green" href={project.demo}>Demo</a>
-    </p>
-    </div>
-    ))}
-    </div>
-    </div>
-    </article>
+      <article
+        className="common-inner animated clearfix bounceInDown"
+        id="projects"
+        style={{ display: "block", position: "relative", visibility: "visible" }}
+      >
+        <div className="profile-cont">
+          <div className="profile-top">
+            <h2>My <span>Projects</span></h2>
+          </div><br />
+          <div>
+            {projects.map((project, index) => (
+              <div key={index} className="project-item">
+                <h3>{project.title}</h3>
+                <p>
+                  <a className="green" href={project.demo} target="_blank" rel="noopener noreferrer">View Demo</a>
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </article>
     </>
   );
 };
