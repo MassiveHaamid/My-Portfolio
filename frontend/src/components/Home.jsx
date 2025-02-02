@@ -9,6 +9,14 @@ const Home = () => {
     >
       <div className="row1">
         <div className="col-md-6 home-details">
+          {/* Add the image inside a circle */}
+          <div className="profile-image-container">
+            <img
+              src="./assets/Pro Mode Active.png';"
+              alt="Haamid"
+              className="profile-image"
+            />
+          </div>
           <h1>
             <span>Hello, I AM</span>
             <br />
