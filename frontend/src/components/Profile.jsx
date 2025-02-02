@@ -25,7 +25,7 @@ const Profile = () => {
                 className="profile-image"
               />
             </div>
-            <br />
+            <br /><br />
             <h2>
               Hello, I am <span>Haamid</span>
             </h2>

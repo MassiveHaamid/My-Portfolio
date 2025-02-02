@@ -19,7 +19,7 @@ const Contact = () => {
                 alt="Haamid"
                 className="profile-image"
               />
-            </div>
+            </div><br /><br />
             <h2>
               Hello, I am <span>Haamid</span>
             </h2>
