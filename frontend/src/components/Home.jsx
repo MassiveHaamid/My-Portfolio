@@ -12,7 +12,7 @@ const Home = () => {
           {/* Add the image inside a circle */}
           <div className="profile-image-container">
             <img
-              src="../assets/Pro Mode Active.png';"
+              src="../assets/Pro Mode Active.png;"
               alt="Haamid"
               className="profile-image"
             />
