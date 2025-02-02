@@ -14,21 +14,24 @@ const Profile = () => {
         id="profile"
         style={prstyle}
       >
-              <div className="profile-cont">
-          <div className="profile-top"><br />
-           {/* Profile Image */}
-           <div className="profile-image-container">
+        <div className="profile-cont">
+          <div className="profile-top">
+            <br />
+            {/* Profile Image */}
+            <div className="profile-image-container">
               <img
                 src="/Pro Mode Active.png"
                 alt="Haamid"
                 className="profile-image"
               />
             </div>
+            <br />
             <h2>
               Hello, I am <span>Haamid</span>
             </h2>
             <h3>Back-end and Front-end Developer</h3>
-          </div><br />
+          </div>
+          <br />
           <div className="row profile-middle-content clearfix">
             <div className="col-md-6">
               <h3>About me</h3>
@@ -76,10 +79,10 @@ const Profile = () => {
             </div>
           </div>
           <br />
-          <a 
-          href="https://www.leetcv.com/r/reshma_h_1327"
-          target="_blank"
-          className="download-resume"
+          <a
+            href="https://www.leetcv.com/r/reshma_h_1327"
+            target="_blank"
+            className="download-resume"
           >
             <span className="solid">
               Download <b>My CV</b>
@@ -87,7 +90,7 @@ const Profile = () => {
           </a>
         </div>
       </article>
-</>
+    </>
   );
 };
 
