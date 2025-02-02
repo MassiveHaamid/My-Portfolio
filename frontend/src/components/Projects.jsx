@@ -31,9 +31,17 @@ const Projects = () => {
             {projects.map((project, index) => (
               <div key={index} className="project-item">
                 <h3>{project.title}</h3>
-                <p>
-                  <a className="green" href={project.demo} target="_blank" rel="noopener noreferrer">View Demo</a>
-                </p>
+                <div className="iframe-container">
+                  <iframe
+                    src={project.demo}
+                    title={project.title}
+                    width="100%"
+                    height="500px"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
               </div>
             ))}
           </div>

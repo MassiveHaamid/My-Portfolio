@@ -293,7 +293,7 @@ body.home {
 }
 
 .project-item {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .project-item h3 {
@@ -310,6 +310,20 @@ body.home {
 .project-item a.green:hover {
   text-decoration: underline;
 }
+
+.iframe-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.iframe-container iframe {
+  width: 100%;  /* Make iframe responsive */
+  height: 500px; /* Adjust height as needed */
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
+  border: none; /* Remove iframe border */
+}
+
 
 .common-inner {
   padding: 75px 0 40px;
