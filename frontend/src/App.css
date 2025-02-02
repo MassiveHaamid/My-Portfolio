@@ -259,16 +259,18 @@ body.home {
 
 .contact-details-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align content */
+  justify-content: center; /* Center items */
   list-style-type: none;
   padding: 0;
 }
 
 .contact-details-list li {
-  flex: 1 0 30%; /* This will allow 3 items per row. Adjust as needed. */
-  margin: 0 10px 10px 10px; /* This adds a 10px margin to the bottom of each list item */
+  margin: 10px 0; /* Space between email and phone */
+  text-align: center;
 }
+
 
 .common-inner {
   padding: 75px 0 40px;
