@@ -305,6 +305,7 @@ body.home {
   color: green;
   text-decoration: none;
   font-weight: bold;
+  cursor: url(my-cursor.png),pointer;
 }
 
 .project-item a.green:hover {
