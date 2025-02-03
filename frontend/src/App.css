@@ -305,12 +305,11 @@ body.home {
   color: green;
   text-decoration: none;
   font-weight: bold;
-  cursor: url(my-cursor.png),pointer;
 }
 
 .project-item a.green:hover {
   text-decoration: underline;
-  cursor: url(my-cursor.png),pointer;
+  cursor: url(my-cursor.png), pointer;
 }
 
 .iframe-container {
@@ -319,13 +318,12 @@ body.home {
 }
 
 .iframe-container iframe {
-  width: 100%;  /* Make iframe responsive */
+  width: 100%; /* Make iframe responsive */
   height: 500px; /* Adjust height as needed */
   border-radius: 8px; /* Optional: rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
   border: none; /* Remove iframe border */
 }
-
 
 .common-inner {
   padding: 75px 0 40px;
