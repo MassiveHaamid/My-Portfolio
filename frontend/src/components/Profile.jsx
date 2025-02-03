@@ -37,21 +37,28 @@ const Profile = () => {
             <div className="col-md-6">
               <h3>About me</h3>
               <p>
-                I am a full-stack developer with expertise in JavaScript,
-                Python, Go and frameworks like React, Express, Node.js, MongoDB
-                and Django. I have experience building scalable backend systems,
-                developing APIs, and working with front-end technologies like
-                React, and VanillaJS. I have experience in blockchain and smart
-                contract development with Solidity (ERC20 and ERC721).
+                Looking for a skilled MERN Stack Developer to bring your web
+                ideas to life? I'm Hamid, with a B.sc, in Computer Science and
+                over 3 years of experience. I specialize in MongoDB, Express,
+                React, and Nodejs delivering full-stack solutions with intuitive
+                designs and secure systems. I completed a full-stack course
+                through GUVI at the IITM Research Park. Let's collaborate to
+                create high-quality, responsive web applications that turn your
+                vision into reality!
               </p>
               <p>
-                I am a technology and science enthusiast who actively seeks to
-                expand my knowledge and skills through hands-on web development
-                projects in my free time. I am also the co-founder of several
-                successful ventures, including micuento.com, a mobile and social
-                reading platform, devect.com, a software as a service platform,
-                and Luracoin (luracoin.com), a cryptocurrency. Currently, I am
-                dedicating my free time to further develop Luracoin.
+                Developed responsive web applications using the MERN stack,
+                resulting in enhanced user engagement and satisfaction through
+                visually appealing interfaces. Implemented performance
+                optimization techniques that significantly improved application
+                loading times and overall user experience. Executed mobile-first
+                design strategies to ensure seamless functionality across
+                devices, broadening user accessibility and reach. Completed a
+                full stack development course at GUVI IITM Research Park, which
+                further honed my expertise and allowed me to deliver
+                high-quality full-stack solutions. Provided ongoing maintenance
+                and support for web applications, leading to increased
+                reliability and sustained long-term client satisfaction.
               </p>
             </div>
             <br />

@@ -22,13 +22,12 @@ const Home = () => {
           <hr />
           <p className="medium">
             <i>
-              I am a full-stack engineer with expertise in Python, JavaScript,
-              Go and frameworks like Django, FastAPI, Express, and Gin-Gonic. I
-              have experience building scalable backend systems, developing
-              APIs, and working with front-end technologies like Vue.js, React,
-              Next.js, and VanillaJS. I have experience in blockchain and smart
-              contract development with Solidity (ERC20 and ERC721). Working at
-              Cocunat.com
+            Looking for a skilled MERN Stack Developer to bring your web ideas to life? I'm Hamid, 
+            with a B.sc, in Computer Science and over 3 years of experience. I specialize in MongoDB, 
+            Express, React, and Nodejs delivering full-stack solutions with intuitive designs 
+            and secure systems. I completed a full-stack course through GUVI at the IITM Research Park. 
+            Let's collaborate to create high-quality, responsive web applications that turn your vision 
+            into reality!
             </i>
           </p>
         </div>
