@@ -12,7 +12,7 @@ const Projects = () => {
     },
     {
       title: "Project 3",
-      demo: "https://massivehaamid.github.io/day12-exec/",
+      demo: "https://massivehaamid.github.io/day12-Bresume/",
     },
   ];
 
@@ -21,12 +21,19 @@ const Projects = () => {
       <article
         className="common-inner animated clearfix bounceInDown"
         id="projects"
-        style={{ display: "block", position: "relative", visibility: "visible" }}
+        style={{
+          display: "block",
+          position: "relative",
+          visibility: "visible",
+        }}
       >
         <div className="profile-cont">
           <div className="profile-top">
-            <h2>My <span>Projects</span></h2>
-          </div><br />
+            <h2>
+              My <span>Projects</span>
+            </h2>
+          </div>
+          <br />
           <div>
             {projects.map((project, index) => (
               <div key={index} className="project-item">
