@@ -54,7 +54,8 @@ const Profile = () => {
                 loading times and overall user experience. Executed mobile-first
                 design strategies to ensure seamless functionality across
                 devices, broadening user accessibility and reach. Completed a
-                full stack development course at GUVI IITM Research Park, which
+                full stack development course at GUVI is an IIT-Madras and 
+                IIM-Ahmedabad incubated company based in Chennai, India. which
                 further honed my expertise and allowed me to deliver
                 high-quality full-stack solutions. Provided ongoing maintenance
                 and support for web applications, leading to increased
