@@ -309,6 +309,7 @@ body.home {
 
 .project-item a.green:hover {
   text-decoration: underline;
+  cursor: url(my-cursor.png),pointer;
 }
 
 .iframe-container {
