@@ -291,7 +291,9 @@ body.home {
   margin-bottom: 20px; /* Adjust margin between rows */
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px)*/
+
+@media (400px <= width <= 600px) {
   .proficiency-details-list li {
     width: 100%; /* Stack items vertically on smaller screens */
   }
