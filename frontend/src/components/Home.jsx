@@ -14,7 +14,7 @@ const Home = () => {
           <img src="/Pro Mode Active.png" alt="Haamid" className="profile-image" />
           </div>
           <h1>
-            <span>Hello, I AM</span>
+            <span>Hello, I'M</span>
             <br />
             <div className="title-my-name">Haamid</div>
           </h1>
