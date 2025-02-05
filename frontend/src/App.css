@@ -19,11 +19,6 @@
   initial-value: #c0aecb;
 }
 
-/* Add this to ensure the profile image appears below the navbar */
-.profile-image-container {
-  margin-top: 90px; /* Adjust this value based on your navbar height */
-}
-
 /* Apply Gradient Background to All Components */
 .home-page,
 .profile-page,
@@ -184,6 +179,7 @@ article#home.home-page {
   margin: 0 auto 20px; /* Centers the circle and adds space below */
   border: 3px solid #fff; /* Optional: Adds a border around the circle */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow */
+  margin-top: 90px; /* Adjust this value based on your navbar height */
 }
 
 .profile-image {
