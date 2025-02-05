@@ -1,3 +1,9 @@
+/* Add this to ensure the profile image appears below the navbar */
+.profile-image-container {
+  margin-top: 80px; /* Adjust this value based on your navbar height */
+}
+
+/* Existing CSS */
 @import url("https://fonts.googleapis.com/css2?family=Anybody:wght@500&family=Source+Code+Pro:wght@400;700&display=swap");
 
 /* Define Custom Properties */
@@ -29,7 +35,7 @@
   border-radius: 1rem;
   padding: 2rem;
   background: radial-gradient(
-      600px circle at 55% 60% in oklab,
+      300px circle at 55% 60% in oklab,
       var(--shine-2),
       transparent 100% 100%
     ),
@@ -251,7 +257,7 @@ body.home {
   margin-top: 30px;
   height: 100px;
   width: 100%;
-  background: url(https://www.leetcv.com/mock-resume) fixed;
+  background: url(https://www.leetcv.com/r/reshma_h_1327) fixed;
   position: relative;
   display: block;
   font-family: raleway, sans-serif;
