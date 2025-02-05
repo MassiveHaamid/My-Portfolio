@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@500&family=Source+Code+Pro:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anybody:wght@500&family=Source+Code+Pro:wght@400;700&display=swap");
 
 /* Define Custom Properties */
 @property --card-bg {
@@ -29,14 +29,18 @@
   border-radius: 1rem;
   padding: 2rem;
   background: radial-gradient(
-      300px circle at 55% 60% in oklab, 
-      var(--shine-2), transparent 100% 100%
-    ), radial-gradient(
-      farthest-side circle at 75% 30% in oklab, 
-      var(--shine-1) 0%, var(--card-bg) 100%
+      500px circle at 55% 60% in oklab,
+      var(--shine-2),
+      transparent 100% 100%
+    ),
+    radial-gradient(
+      farthest-side circle at 75% 30% in oklab,
+      var(--shine-1) 0%,
+      var(--card-bg) 100%
     );
   background-blend-mode: color-burn;
-  animation: animate-color-1 8s infinite linear alternate, animate-color-2 4s infinite linear alternate;
+  animation: animate-color-1 8s infinite linear alternate,
+    animate-color-2 4s infinite linear alternate;
 }
 
 /* Keyframes for Animation */
@@ -247,7 +251,7 @@ body.home {
   margin-top: 30px;
   height: 100px;
   width: 100%;
-  background: url(https://www.leetcv.com/r/reshma_h_1327) fixed;
+  background: url(https://www.leetcv.com/mock-resume) fixed;
   position: relative;
   display: block;
   font-family: raleway, sans-serif;
