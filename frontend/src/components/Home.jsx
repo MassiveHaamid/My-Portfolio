@@ -9,11 +9,11 @@ const Home = () => {
     >
       <div className="home-page">
       <div className="profile-top">
-        <div className="col-md-6 home-details">
+        {/* <div className="col-md-6 home-details"> */}
           {/* Add the image inside a circle */}
           <div className="profile-image-container">
           <img src="/Pro Mode Active.png" alt="Haamid" className="profile-image" />
-          </div>
+          </div><br /><br />
           <h1>
             <span>Hello, I'M</span>
             <br />
@@ -22,7 +22,7 @@ const Home = () => {
           <h2>Frontend and Backend Developer</h2>
           <hr />
           </div>
-          </div>
+          {/* </div> */}
           <p className="medium">
             <i>
             Looking for a skilled MERN Stack Developer to bring your web ideas to life? I'm Hamid, 

@@ -14,11 +14,7 @@ const Contact = () => {
           <div className="profile-top">
             {/* Profile Image */}
             <div className="profile-image-container">
-              <img
-                src="/Pro Mode Active.png" // Ensure it's inside `public/`
-                alt="Haamid"
-                className="profile-image"
-              />
+              <img src="/Pro Mode Active.png" alt="Haamid" className="profile-image"/>
             </div><br /><br />
             <h2>
               Hello, I am <span>Haamid</span>
