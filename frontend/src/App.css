@@ -54,7 +54,7 @@
   );
   background-size: 200% 200%;
   animation: twinkle 3s infinite ease-in-out;
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 
