@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@500&family=Source+Code+Pro:wght@400;700&display=swap');
+
+@property --card-bg {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #c0bae8;
+}
+
+@property --shine-1 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #ffbbc0;
+}
+
+@property --shine-2 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #c0aecb;
+}
 
 body {
   background: #edeff1;
@@ -124,8 +143,35 @@ article#home.home-page {
 }
 
 .home-page {
-  padding: 0;
-  margin: 0;
+  border-radius: 1rem;
+  padding: 2rem;
+  background: radial-gradient(
+      300px circle at 55% 60% in oklab, 
+      var(--shine-2), transparent 100% 100%
+    ), radial-gradient(
+      farthest-side circle at 75% 30% in oklab, 
+      var(--shine-1) 0%, var(--card-bg) 100%
+    );
+  background-blend-mode: color-burn;
+  animation: animate-color-1 8s infinite linear alternate, animate-color-2 4s infinite linear alternate;
+}
+
+@keyframes animate-color-1 {
+  from {
+    --shine-1: initial;
+  }
+  to {
+    --shine-1: orange;
+  }
+}
+
+@keyframes animate-color-2 {
+  from {
+    --shine-2: initial;
+  }
+  to {
+    --shine-2: hotpink;
+  }
 }
 
 .row {
