@@ -11,23 +11,23 @@ const Home = () => {
         <div className="col-md-6 home-details">
           {/* Add the image inside a circle */}
           <div className="profile-image-container">
-          <img src="/Pro Mode Active.png" alt="Haamid" className="profile-image" />
+            <img src="/Pro Mode Active.png" alt="Haamid" className="profile-image" />
           </div>
-          <h1>
+          <h1 className="twinkling-gradient">
             <span>Hello, I AM</span>
             <br />
             <div className="title-my-name">Haamid</div>
           </h1>
           <h2>Frontend and Backend Developer</h2>
           <hr />
-          <p className="medium">
+          <p className="medium twinkling-gradient">
             <i>
-            Looking for a skilled MERN Stack Developer to bring your web ideas to life? I'm Hamid, 
-            with a B.sc, in Computer Science and over 3 years of experience. I specialize in MongoDB, 
-            Express, React, and Nodejs delivering full-stack solutions with intuitive designs 
-            and secure systems. I completed a full-stack course through GUVI at the IITM Research Park. 
-            Let's collaborate to create high-quality, responsive web applications that turn your vision 
-            into reality!
+              Looking for a skilled MERN Stack Developer to bring your web ideas to life? I'm Hamid, 
+              with a B.sc, in Computer Science and over 3 years of experience. I specialize in MongoDB, 
+              Express, React, and Nodejs delivering full-stack solutions with intuitive designs 
+              and secure systems. I completed a full-stack course through GUVI at the IITM Research Park. 
+              Let's collaborate to create high-quality, responsive web applications that turn your vision 
+              into reality!
             </i>
           </p>
         </div>
