@@ -10,7 +10,7 @@ const Contact = () => {
         id="contact"
         style={{ display: "block", position: "relative", visibility: "visible" }}
       >
-        <div className="profile-cont">
+        <div className="contact-page">
           <div className="profile-top">
             {/* Profile Image */}
             <div className="profile-image-container">

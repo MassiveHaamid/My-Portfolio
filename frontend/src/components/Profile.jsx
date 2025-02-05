@@ -14,7 +14,7 @@ const Profile = () => {
         id="profile"
         style={prstyle}
       >
-        <div className="profile-cont">
+        <div className="profile-page">
           <div className="profile-top">
             <br />
             {/* Profile Image */}

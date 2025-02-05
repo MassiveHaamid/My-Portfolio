@@ -20,7 +20,7 @@ const Proficiency = () => {
           visibility: "visible",
         }}
       >
-        <div class="profile-cont">
+        <div class="proficiency-page">
           <div class="profile-top">
             <h2>
               My <span>Technical Skills</span>

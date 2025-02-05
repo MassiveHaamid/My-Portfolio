@@ -27,7 +27,7 @@ const Projects = () => {
           visibility: "visible",
         }}
       >
-        <div className="profile-cont">
+        <div className="projects-page">
           <div className="profile-top">
             <h2>
               My <span>Projects</span>
