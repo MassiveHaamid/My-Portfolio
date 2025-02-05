@@ -239,7 +239,7 @@ body.home {
 .profile-top h2 {
   position: relative;
   z-index: 1; /* Bring the <h2> tag above the gradient background */
-  margin-top: -10px; /* Adjust this value to position the <h2> tag */
+  margin-top: -5px; /* Adjust this value to position the <h2> tag */
   text-align: center; /* Center the text */
   color: #fff; /* Set text color */
 }
