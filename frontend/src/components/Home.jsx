@@ -8,6 +8,7 @@ const Home = () => {
       style={{ display: "block", paddingBottom: "40px" }}
     >
       <div className="home-page">
+      <div className="profile-top">
         <div className="col-md-6 home-details">
           {/* Add the image inside a circle */}
           <div className="profile-image-container">
@@ -20,6 +21,7 @@ const Home = () => {
           </h1>
           <h2>Frontend and Backend Developer</h2>
           <hr />
+          </div>
           </div>
           <p className="medium">
             <i>
