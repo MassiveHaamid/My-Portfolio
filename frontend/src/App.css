@@ -1,9 +1,3 @@
-/* Add this to ensure the profile image appears below the navbar */
-.profile-image-container {
-  margin-top: 30px; /* Adjust this value based on your navbar height */
-}
-
-/* Existing CSS */
 @import url("https://fonts.googleapis.com/css2?family=Anybody:wght@500&family=Source+Code+Pro:wght@400;700&display=swap");
 
 /* Define Custom Properties */
@@ -23,6 +17,11 @@
   syntax: "<color>";
   inherits: false;
   initial-value: #c0aecb;
+}
+
+/* Add this to ensure the profile image appears below the navbar */
+.profile-image-container {
+  margin-top: 30px; /* Adjust this value based on your navbar height */
 }
 
 /* Apply Gradient Background to All Components */
@@ -235,6 +234,21 @@ body.home {
 
 .home .title-my-name {
   font-size: 62px;
+}
+/* Ensure the <h2> tag is positioned above the gradient background card */
+.profile-top h2 {
+  position: relative;
+  z-index: 1; /* Bring the <h2> tag above the gradient background */
+  margin-top: -40px; /* Adjust this value to position the <h2> tag */
+  text-align: center; /* Center the text */
+  color: #fff; /* Set text color */
+}
+
+/* Adjust the gradient background card to accommodate the <h2> tag */
+.proficiency-page,
+.projects-page {
+  margin-top: 60px; /* Add space for the <h2> tag */
+  padding-top: 20px; /* Add padding to the top of the card */
 }
 
 .profile-top h2 span {
