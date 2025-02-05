@@ -1,6 +1,6 @@
 /* Add this to ensure the profile image appears below the navbar */
 .profile-image-container {
-  margin-top: 80px; /* Adjust this value based on your navbar height */
+  margin-top: 30px; /* Adjust this value based on your navbar height */
 }
 
 /* Existing CSS */
